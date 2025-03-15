@@ -2,9 +2,9 @@
 set SERVER_USERNAME=root
 set SERVER_IP=128.199.93.114
 set SERVER_PASSWORD=cxroyal2@Lion
-set TARGET_DIR=/node/Worker
+set TARGET_DIR=/node/Worker_dev
 set TEMP_DIR=/tmp/
-set POST_COMMAND= pm2 restart cc-worker && pm2 ls
+set POST_COMMAND= pm2 restart cc-worker_dev && pm2 ls
 
 REM Step 1: Compress current directory contents into code.rar : install sudo apt update , sudo apt install unrar
 "C:\Program Files\WinRAR\Rar.exe" a -r -inul code.rar * -x*.git\

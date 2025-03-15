@@ -108,7 +108,7 @@ const initServer = async () => {
         }
     });
 
-    const PORT = 15997;
+    const PORT = 15997+100;
     server.listen(PORT, () => {
         console.log(`Server is running at http://localhost:${PORT}`);
     });
